@@ -33,7 +33,59 @@ public class Persona implements Mostrable {
         System.out.println("Email: " + email);
     }
 
+    public String getNumeroDocumento() {
+        return numeroDocumento;
+    }
 
+    public void setNumeroDocumento(String numeroDocumento) {
+        this.numeroDocumento = numeroDocumento;
+    }
 
+    public String getApellido() {
+        return apellido;
+    }
 
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Date getFechNac() {
+        return fechNac;
+    }
+
+    public void setFechNac(Date fechNac) {
+        this.fechNac = fechNac;
+    }
+
+    public String getDomicilio() {
+        return domicilio;
+    }
+
+    public void setDomicilio(String domicilio) {
+        this.domicilio = domicilio;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
